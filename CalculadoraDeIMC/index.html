@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href=index.css/>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>IMC Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    
+</head>
+<body>
+    <script src='index.js'></script>
+    <div>
+        <h1 id="Cabecalho"><strong>Calculadora de IMC online!</strong></h1>
+    </div>
+
+    <div class="caixa"></div>
+
+    <div>
+        <p>Digite aqui o seu peso (kg)</p>
+        <input type="number" name="input" value="Digite aqui" id="iptMassa"/>
+        <p>Digite aqui a sua altura (m)</p>
+        <input type="number" name="input" value="Digite aqui" id="iptAltura"/>
+        <button onclick="imc()" id="btnSoma">Calcular</button>
+    </div>
+
+    <div class="caixa"></div>
+    
+    <div class="divResults">
+        <h3 id="printIMC">Aqui aparecerá o resultado do seu IMC</h3>
+    </div>
+
+    <div class="caixa"></div>
+
+    <div class="divResults">
+        <h3 id="printTypeIMC">Aqui aparecerá o resultado do seu estado de massa corpórea</h3>
+    </div>
+
+    <div class="caixa"></div>
+
+    <div class="divResults">
+        <h3 id="printMudarMassa">Aqui aparecerá o resultado de quanto você precisa perder ou ganhar</h3>
+    </div>
+</body>
+</html>
+
